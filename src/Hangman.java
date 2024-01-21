@@ -365,6 +365,7 @@ public class Hangman {
                     lives= 7 ;
                     incorrectchars = new ArrayList();
                     incorrectwords = new ArrayList();
+                    correctChars = new ArrayList();
                 }
                 else if (playagainchoice.equals("no")) {
                     break;
